@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is part of the Codevixens Frontend Development Challenge (Day 3). The goal is a recreation of the Medium landing page, built using React. It showcases the use of components, styling, and responsive design principles.
+Medium inspiredi for reading and writing blog posts, featuring a clean design and emphasis on quality content. Users can follow writers, interact with posts, and publish their own stories.
 
 ## Features
 
