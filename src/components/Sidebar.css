@@ -1,0 +1,79 @@
+/* Sidebar styles */
+.sidebar {
+    width: 250px; /* Width of the sidebar */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Fixed position to stay in place */
+    top: 0;
+    left: 0;
+    background-color: #343a40; /* Dark background color */
+    color: #fff; /* White text color */
+    transform: translateX(-100%); /* Hide sidebar off-screen */
+    transition: transform 0.3s ease-in-out; /* Smooth transition for sliding */
+    z-index: 1000; /* Ensure sidebar is above other content */
+  }
+  
+  .sidebar.open {
+    transform: translateX(0); /* Slide in the sidebar */
+  }
+  
+  .sidebar h3 {
+    text-align: center; /* Center align the header text */
+    padding: 15px; /* Padding around the header */
+    background-color: #495057; /* Slightly lighter background for header */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .sidebar ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .sidebar li {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .sidebar a {
+    display: block; /* Make links full-width */
+    padding: 15px; /* Padding around links */
+    color: #adb5bd; /* Light grey color for links */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+  }
+  
+  .sidebar a:hover {
+    background-color: #495057; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  /* Main content styles */
+  .main-content {
+    margin-left: 250px; /* Offset for sidebar */
+    padding: 20px; /* Padding around content */
+    transition: margin-left 0.3s ease-in-out; /* Smooth transition for content shift */
+  }
+  
+  .sidebar.open + .main-content {
+    margin-left: 0; /* No margin when sidebar is hidden */
+  }
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      width: 200px; /* Adjust width for smaller screens */
+    }
+  
+    .main-content {
+      margin-left: 0; /* Remove margin on smaller screens */
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .sidebar {
+      width: 100%; /* Full width on very small screens */
+    }
+  
+    .main-content {
+      margin-left: 0; /* Remove margin on very small screens */
+    }
+  }
+  

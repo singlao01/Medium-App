@@ -1,0 +1,65 @@
+/* General container styling */
+.container-fluid {
+    padding: 0; /* Remove default padding */
+  }
+  
+  .row {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .sidebar {
+    background-color: #f8f9fa; /* Light background color for the sidebar */
+    overflow: hidden; /* Hide any overflow content */
+  }
+  
+  .landing-image {
+    max-width: 100%; /* Ensure the image fits within the sidebar */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Hero section styling */
+  .hero-title {
+    font-size: 3rem; /* Large font size for the hero title */
+    line-height: 1.2; /* Tight line height for a compact look */
+    color: #333; /* Dark grey color for the text */
+  }
+  
+  .lead {
+    font-size: 1.25rem; /* Slightly larger font size for the lead text */
+    color: #666; /* Medium grey color for the text */
+  }
+  
+  .btn-black {
+    background-color: #000; /* Black background for the button */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 12px 24px; /* Button padding */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem; /* Font size */
+    font-weight: 500; /* Slightly bolder text */
+    text-align: center; /* Center align text inside button */
+  }
+  
+  .btn-black:hover {
+    background-color: #333; /* Darker black on hover */
+    text-decoration: none; /* Remove underline on hover */
+  }
+  
+  @media (max-width: 991.98px) {
+    .sidebar {
+      display: none; /* Hide sidebar on smaller screens */
+    }
+  
+    .col-lg-8, .col-md-8 {
+      width: 100%; /* Full width on smaller screens */
+    }
+  
+    .hero-title {
+      font-size: 2rem; /* Smaller font size for hero title on mobile */
+    }
+  
+    .lead {
+      font-size: 1rem; /* Smaller font size for lead text on mobile */
+    }
+  }
+  

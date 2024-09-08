@@ -1,0 +1,61 @@
+/* Header styles */
+.header {
+    background-color: #fff; /* White background for the header */
+    padding: 10px 0; /* Padding for top and bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .brand-logo {
+    max-height: 40px; /* Adjust logo size */
+    width: auto; /* Maintain aspect ratio */
+  }
+  
+  .navbar-nav .nav-item a {
+    color: #333; /* Dark grey color for text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 14px; /* Font size for navigation links */
+  }
+  
+  .navbar-nav .nav-item a:hover {
+    color: #007bff; /* Blue color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .btn-get-started {
+    background-color: #007bff; /* Blue background for the button */
+    color: #fff; /* White text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Button padding */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 14px; /* Font size */
+    font-weight: 500; /* Slightly bolder text */
+  }
+  
+  .btn-get-started:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .gold-strip {
+    background-color: #ffd700; /* Gold background color */
+    padding: 10px 0; /* Padding for top and bottom */
+  }
+  
+  .gold-strip p {
+    margin: 0; /* Remove margin from paragraph */
+  }
+  
+  .membership a {
+    color: #0056b3; /* Blue color for the membership link */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .membership a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  @media (max-width: 991.98px) {
+    .header .navbar-nav {
+      text-align: center; /* Center align nav items on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,123 @@
+/* General Styling */
+body {
+  background-color: #f7f4ed;
+  font-family: "Jomolhari", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  align-items: center;
+  font-size: small;
+}
+
+a:hover {
+  color: black;
+}
+
+.hero-title {
+  font-family: "Jomolhari", sans-serif;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Brand Logo */
+.brand-logo {
+  height: 50px;
+  width: auto;
+  margin: 0 15px;
+}
+
+/* Gold Strip */
+.gold-strip {
+  padding-top: 12px;
+  background: linear-gradient(90deg, #f9eba5, #ffbb16);
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.gold-strip a {
+  color: black;
+  font-weight: bold;
+}
+
+/* Landing Image */
+.landing-image {
+  width: 360px;
+  height: 445px;
+  object-fit: cover;
+}
+
+/* Membership */
+.membership {
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Buttons */
+.btn-get-started, .btn-black {
+  background-color: #262626;
+  color: white;
+  border: 1px solid white;
+  border-radius: 70px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover, .btn-black:hover {
+  background-color: black;
+}
+
+.btn-black {
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .btn-black {
+    background-color: #00b900;
+  }
+
+  .btn-black:hover {
+    background-color: green;
+  }
+
+  .landing-image {
+    display: none;
+  }
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid black;
+  background-color: #f7f4ed;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer {
+  background-color: black;
+}
+
+.txt-grey {
+  padding: 20px;
+  color: rgb(241, 236, 236);
+}
+
+.txt-grey a {
+  color: rgb(255, 255, 255);
+  transition: color 0.3s ease;
+}
+
+.txt-grey a:hover {
+  color: white;
+  text-decoration: underline;
+}

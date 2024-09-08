@@ -1,0 +1,27 @@
+.footer {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 20px 0; /* Vertical padding */
+    border-top: 1px solid #e9ecef; /* Light border at the top */
+  }
+  
+  .footer a {
+    color: #6c757d; /* Grey color for the text */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 14px; /* Font size */
+  }
+  
+  .footer a:hover {
+    color: #0056b3; /* Darker blue color on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  .txt-grey {
+    color: #6c757d; /* Grey text color */
+  }
+  
+  @media (max-width: 991.98px) {
+    .footer a.d-none {
+      display: none; /* Hide links on smaller screens */
+    }
+  }
+  
