@@ -2,7 +2,7 @@
 
 ## Overview
 
-Medium inspiredi for reading and writing blog posts, featuring a clean design and emphasis on quality content. Users can follow writers, interact with posts, and publish their own stories.
+Medium inspired for reading and writing blog posts, featuring a clean design and emphasis on quality content. Users can follow writers, interact with posts, and publish their own stories.
 
 ## Features
 
