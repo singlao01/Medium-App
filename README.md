@@ -1,4 +1,4 @@
-# Medium Landing Page (Duplicate) in React JS
+
 
 ## Overview
 
